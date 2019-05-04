@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/React--Drink-Creator/precache-manifest.89813e6c0de88ccd5fefc11cc22e325e.js"
+  "/React--Drink-Creator/precache-manifest.eff63ab8c4438a553495b773d73f2795.js"
 );
 
 workbox.clientsClaim();
