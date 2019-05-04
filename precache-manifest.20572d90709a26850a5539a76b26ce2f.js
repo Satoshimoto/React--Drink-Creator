@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/React--Drink-Creator/static/media/salt.0bff9b7b.png"
   },
   {
-    "revision": "41e6ae514b888ea9543f",
-    "url": "/React--Drink-Creator/static/css/main.cbb05e28.chunk.css"
+    "revision": "a6256d76228a0d42dca7",
+    "url": "/React--Drink-Creator/static/css/main.ad002c88.chunk.css"
   },
   {
     "revision": "3b0b4957f3742529dfc7",
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "url": "/React--Drink-Creator/static/media/cane_sugar.ec62d22d.png"
   },
   {
-    "revision": "41e6ae514b888ea9543f",
-    "url": "/React--Drink-Creator/static/js/main.729df109.chunk.js"
+    "revision": "a6256d76228a0d42dca7",
+    "url": "/React--Drink-Creator/static/js/main.e289f3aa.chunk.js"
   },
   {
     "revision": "d242437ccb3c7384d5f60883dabaca20",
@@ -140,7 +140,7 @@ self.__precacheManifest = [
     "url": "/React--Drink-Creator/static/media/wait.f81355f6.png"
   },
   {
-    "revision": "0511c4b6b1a3ae108cde26608049537d",
+    "revision": "547d24ffbc92d39d14c52a2f9ac577f3",
     "url": "/React--Drink-Creator/index.html"
   }
 ];
