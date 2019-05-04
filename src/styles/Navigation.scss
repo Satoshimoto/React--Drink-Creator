@@ -1,0 +1,45 @@
+.navigation_container {
+    background-color: #111;
+    display: flex;
+    text-align: center;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    z-index: 9;
+
+    a {
+        text-decoration: none;
+        flex: 1;
+        cursor: pointer;
+        color: white;
+        padding: 15px 0px;
+        transition: 0.4s;
+        text-transform: uppercase;
+        font-size: 14px
+    }
+
+    a:hover {
+        background-color: #444;
+
+    }
+
+
+    .navigation_container_logo {
+        .logoIcon {
+            margin-right: 8px;
+        }
+    }
+
+    .navigation_container_recipes {
+        .recipesIcon {
+            margin-right: 8px;
+        }
+    }
+
+    .navigation_container_products {
+        .productsIcon {
+            margin-right: 8px;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.footerSection {
+    background-color: #222;
+    padding: 20px 0px;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+
+    div {
+        margin-bottom: 10px;
+
+        a {
+            color: rgb(138, 138, 212);
+            text-decoration: none;
+        }
+    }
+
+    .footerSection_github {
+        i {
+            margin-left: 2px;
+        }
+    }
+}

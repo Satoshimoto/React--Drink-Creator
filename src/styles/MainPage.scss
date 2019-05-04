@@ -1,0 +1,172 @@
+.mainPage_header {
+    min-height: 90vh;
+
+
+    .mainPage_header_information {
+        text-align: center;
+        padding: 10px 30px;
+        color: white;
+
+        .mainPage_header_baner {
+            max-width: 750px;
+            margin: 60px auto 50px auto;
+
+            img {
+                width: 100%;
+                height: auto;
+
+            }
+        }
+
+        .mainPage_header_instruction {
+            margin-top: 40px;
+            font-size: 17px;
+        }
+    }
+
+    .mainPage_header_mixArea {
+        padding: 0px 30px;
+
+        .mainPage_header_mixResult {
+            width: 180px;
+            margin: 0 auto;
+
+            img {
+                width: 100%;
+                display: block;
+
+            }
+        }
+
+        .mainPage_header_mixInformation {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: lightgreen;
+            text-align: center;
+        }
+
+        .mainPage_header_mixButton {
+            display: block;
+            margin: 15px auto 25px auto;
+            width: 130px;
+            background-color: #333;
+            border: 1px solid greenyellow;
+            padding: 9px;
+            cursor: pointer;
+            text-transform: uppercase;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            border-radius: 25px;
+
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.mainPage_products {
+    max-width: 1200px;
+    display: block;
+
+    h5 {
+        padding: 20px 30px;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        position: relative;
+    }
+
+    h5::before {
+        content: '__________________';
+        color: lightblue;
+        position: absolute;
+        bottom: 20%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .mainPage_products_container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        div {
+            width: 40%;
+            margin: 5%;
+            padding: 4%;
+            cursor: pointer;
+            text-align: center;
+            color: white;
+            transition: 0.1s;
+
+            img {
+                display: block;
+                width: 80%;
+                margin: 0px auto;
+            }
+
+            h3 {
+                margin-top: 10px;
+
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width:560px) {
+    .mainPage_header {
+        .mainPage_header_information {
+            .mainPage_header_instruction {
+                padding: 0px 20px;
+            }
+        }
+    }
+
+    .mainPage_products {
+        .mainPage_products_container {
+            div {
+                width: calc(88%/3);
+                margin: 2%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:700px) {
+    .mainPage_header {
+        .mainPage_header_information {
+            .mainPage_header_instruction {
+                padding: 0px 50px;
+            }
+        }
+
+        .mainPage_header_mixArea {
+            .mainPage_header_mixResult {
+                width: 230px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) {
+
+    .mainPage_header {
+        .mainPage_header_mixArea {
+            .mainPage_header_mixResult {
+                width: 290px;
+            }
+        }
+    }
+
+    .mainPage_products {
+        .mainPage_products_container {
+            div {
+                width: calc(88%/4);
+                margin: 1.5%;
+            }
+        }
+    }
+}
